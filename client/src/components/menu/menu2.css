@@ -1,0 +1,89 @@
+/* *{ 
+    overflow-x: hidden;
+}  */
+.page{
+    width: 100%;
+    height: 15%;
+    direction: rtl;
+    overflow-x: hidden;
+}
+.item{
+  cursor: pointer;
+}
+
+.home{
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ebb19b;
+}
+
+  .loginOrRegister{
+    display: flex;
+  }
+  .register{
+    width: 20%;
+    height: 100%;
+    border: solid 2px #ebb19b;
+    background-color: #ebb19b;
+    margin-right: 5%;
+    cursor: pointer;
+  }
+
+  .register span{
+    display: block;
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #202737;
+  }
+  .login{
+    width: 20%;
+    height: 100%;
+    border: solid 2px #ebb19b;
+    cursor: pointer;
+  }
+  .login span{
+    display: block;
+    object-fit: contain;
+    font-family: Heebo;
+    font-size: 15px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.5;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ebb19b;
+  }
+
+  .person img{
+    object-fit: contain;
+    margin: auto;
+    display: block;
+  }
+  .person span{
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: bold;
+    color: #ebb19b;
+    text-align: center;
+    margin: auto;
+    display: block;
+  }
+  .centerElement{
+    margin: auto;
+    display: block;
+    text-align: center;
+  }

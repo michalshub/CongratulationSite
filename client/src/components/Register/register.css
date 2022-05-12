@@ -1,0 +1,107 @@
+#page {
+    background-image: url("./login.png");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #202737;
+}
+
+/* .content {
+    width: 50%;
+    margin: auto;
+    object-fit: contain;
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.26);
+    border: solid 3px #fff;
+    background-color: #202737;
+    background-image: none;
+} */
+#title{
+    direction: rtl;
+    display: block;
+    margin-top: 3%;
+    object-fit: contain;
+    font-family: Heebo;
+    font-size: 36px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ebb19b;
+}
+/* .field{
+    margin: auto;
+    display: block;
+    width: 50%;
+    height: 47px;
+    margin-top: 3%;
+    border: solid 2px #fff;
+    background-color:#202737;
+    text-align: right;
+    padding-right: 15px;
+    font-family: Heebo;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+} */
+.icons1 {
+    background: url("./user.png") no-repeat left;
+    background-position: 3%;
+}
+.icons2 {
+    background: url("./email.png") no-repeat left;
+    background-position: 3%;
+}
+.icons3 {
+    background: url("./lock.png") no-repeat left;
+    background-position: 3%;
+}
+.alert-danger {
+    width: 50%;
+    margin: auto;
+}
+.text{
+    margin: auto;
+    margin-top: 3%;
+    display: block;
+    object-fit: contain;
+    font-family: Heebo;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+}
+a{
+    color: #fff;
+}
+/* a:hover{
+    color: #ebb19b;
+} */
+/* .login-button{
+    width: 15%;
+    height: 37px;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #ebb19b;
+    margin: auto;
+    margin-top: 3%;
+    border: none;
+    display: block;
+}
+.login-text{
+    display: block;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+} */
+

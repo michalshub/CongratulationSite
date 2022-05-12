@@ -1,0 +1,23 @@
+.centerdiv{
+  width: 65%;
+  display: block;
+  margin: auto;
+}
+.fullField{
+    width: 100% ;
+}
+.smallTitle{
+  font-family: Heebo;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: normal;
+  color: #fff;
+}
+.addIcon{
+  font-size: 1.7rem;
+  color: #fff;
+}
+.iconsCategory {
+  background: url("./book.png") no-repeat left;
+  background-position: 3%;
+}

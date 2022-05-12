@@ -1,0 +1,51 @@
+.bigBook{
+  background: url("./bigBook.png") no-repeat right;
+  background-size: 50%;
+  background-position-x: 50%;
+  background-position-y: 90%;
+}
+.categoryTitle{
+    width: 20em;
+  height: 70px;
+  border: solid 3px #ebb19b;
+  border-radius: unset;
+  background-color: #282e44;
+  margin: auto;
+  margin-top: 7%;
+}
+.categoryTitle span{
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    color: #ebb19b;
+    cursor: pointer;
+    background: url("./book.png") no-repeat right;
+    background-size: 35px;
+    background-position-x: 95%;
+    background-position-y: 60%;
+    margin: auto;
+    display: block;
+    line-height: 2;
+}
+.categoryContent{
+  width: 20em;
+  height: 70px;
+  background-color: #ebb19b;
+  margin: auto;
+}
+
+.categoryContent span{
+    font-family: Heebo;
+    font-size: 27px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    margin: auto;
+    display: block;
+    line-height: 2.7;
+}
+.top-loader{
+  top: 70% !important;
+}

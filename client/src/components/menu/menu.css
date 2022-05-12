@@ -1,0 +1,96 @@
+
+
+.header-right ul,.header-right-open ul {
+    padding: 0;
+    display: inline-block;
+    margin: 0;
+}
+
+.header-right ul li,.header-right-open ul li {
+    direction: ltr;
+    float: left;
+    width: 100%;
+    color: #fff;
+    height: 95px;
+    position: relative;
+    padding: 15px 0;
+    list-style: none;
+}
+.text{
+    padding-right: 2%;
+}
+.ii{
+    position: absolute;
+    left: 8%;
+    font-size:1.25rem;
+}
+.color-pink{
+    color: rgb(248, 108, 131);
+}
+
+.active a {
+    right: 0;
+    transform: translateX(-80%);
+}
+
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.smallWidth{
+    width: 240px
+}
+.smallWidthToHomePage{
+    width: 190px;
+    color: black;
+}
+.nav-link:active {
+    color: black;
+}
+
+.hover:hover img {
+    opacity: 0.4 !important;
+}
+
+.hover:hover .card-img-overlay.icons {
+    display: block !important;
+}
+
+.container {
+    direction: rtl;
+}
+.categoriot{font-size:5rem}
+
+
+.arrow-down{
+    transition: all 0.5s;
+    transform: rotate(0deg);
+}
+.arrow-top{
+    transition: all 0.5s;
+    transform: rotate(-180deg);
+}
+.dropdown-item.active, .dropdown-item:active, .dropdown-item:hover {
+    background-color: #ebb19b;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.modal-backdrop.show{
+    opacity: 0.3;
+}
+
+
+.center{
+    text-align: center;
+}
+.try{
+    border: solid red 1px;
+}

@@ -1,0 +1,39 @@
+.downloadIcon2{
+    font-size: 2rem;
+     position: absolute;
+      left: 20%;
+       top: 20%;
+        cursor: pointer;
+        color: #fff;
+}
+.downloadIcon{
+    cursor: pointer;
+    color: #fff;
+    font-size: 2rem;
+    float: left;
+}
+.tableTitle{
+    height: 60px;
+     border-bottom: #ebb19b solid
+}
+.lh-3{
+    line-height: 3;
+}
+.tr-h{
+height: 60px;;
+}
+.tr-download{
+    height: 60px;
+     border-bottom: black solid;
+}
+
+.real-w{
+    width: 60%;
+}
+.download-w{
+    width: 743px
+}
+.centerText{
+    text-align: center;
+    font-size: 30px;
+}

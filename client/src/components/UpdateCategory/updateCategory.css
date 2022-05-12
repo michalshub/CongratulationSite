@@ -1,0 +1,17 @@
+/* .fieldSub{
+    width: 350px !important;
+    margin: unset !important;
+} */
+.colSub{
+    margin-right: 8px;
+}
+
+select{
+    background: url(./arrow.png) no-repeat;
+    background-position-x: 5%;
+    background-position-y: center;    -moz-appearance: none; 
+    word-wrap: normal;
+    -webkit-appearance: none; 
+    appearance: none;
+    padding : 5px 20px
+}

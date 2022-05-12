@@ -1,0 +1,134 @@
+
+#pageHome{
+    background-image: url("./background.png");  
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #202737;
+}
+.homeText{
+    float: left;
+    text-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+    font-family: Heebo;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    color: #fff;
+    margin-left: 15%;
+}
+.homeCon{
+    margin: 5%;
+    width: 600px;
+    height: 420px;
+}
+.home-button{
+    width: 25%;
+    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 16%);
+    background-color: #ebb19b;
+    margin-top: 1%;
+    border: none;
+    float: left;
+    margin-left: 16%;
+}
+.howWork{
+    display: block;
+    margin: auto;
+    width: 50%;
+    /* height: 100px; */
+    /* padding: 42px 210px 41px; */
+    border: solid 3px #fff;
+}
+.textHowWork{
+    display: block;
+    font-family: Heebo;
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 2.3;
+    text-align: center;
+    color: #fff;
+}
+.steps{
+    display: grid;
+}
+.step{
+    margin: auto;
+    width: 337px;
+    height: 54px;
+    font-family: Heebo;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+}
+.imgSteps{
+    margin: auto;
+}
+.imgSteps1{
+    width: 121.5px;
+    height: 108px;
+    margin: auto;
+}
+.newCon{
+    margin: auto;
+    width: 90%;
+    /* height: 110px; */
+    padding: 2%;
+    background-color: #ebb19b;
+}
+.newsText{
+    font-family: Heebo;
+    font-size: 48px;
+    font-weight: 900;
+    text-align: center;
+    color: #fff;
+    display: block;
+    margin: auto;
+}
+.conImg{
+    width: 200px;
+}
+.con{
+    position: relative;
+  text-align: center;
+  color: white;
+}
+.centered{
+    position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.side{
+    margin: auto;
+    text-align: center;
+}
+.arrow-right{
+    position: relative;
+    top: 1%;
+    left: 37%;
+    transform: rotate(180deg);
+}
+.arrow-left{
+    position: relative;
+    top: 1%;
+    left: 37%;
+}
+.carousel-control-prev{
+    background: url("./arrow.png") no-repeat left;
+    transform: rotate(180deg);
+    background-position: 10%;
+}
+.carousel-control-next{
+    background: url("./arrow.png") no-repeat left;
+    background-position: 10%;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon{
+    height: unset;
+}
+.take_me{
+    line-height: 2.5;
+    cursor: pointer;
+}
+.heightImg{
+    height: 300px;
+}

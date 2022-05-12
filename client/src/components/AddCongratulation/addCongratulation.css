@@ -1,0 +1,26 @@
+.titleCon{
+    border: solid 3px #ebb19b !important;
+    background-color: #282e44 !important;
+    color: #ffff;
+    font-family: Heebo;
+    font-size: 25px;
+    padding: 5%;
+
+}
+.titleCon::placeholder{
+    color: #ebb19b !important;
+    line-height: 2;
+    font-family: Heebo;
+  font-size: 25px;
+  font-weight: bold;
+}
+.contentCon{
+    height: 300px !important;
+}
+.buttons{
+    height: 55px;
+}
+.addImg{
+    width: 15px;
+    margin-left: 5%;
+}

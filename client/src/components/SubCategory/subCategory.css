@@ -1,0 +1,40 @@
+.cat, .cursor{
+    cursor: pointer;
+}
+.newsTextLarge{
+    font-size: 40px !important;
+}
+.newsTextSmall{
+    margin-top: -1% !important;
+    font-size: 25px !important;
+}
+.allSub{
+    margin: 5%;
+}
+.marginB{
+    margin-bottom: 15%;
+}
+.conImgSubCategory{
+    width: 250px;
+    height: 380px;
+    opacity: 0.7;
+
+}
+.centerT{
+    top:35% !important;
+}
+.overflow{
+    overflow: hidden;
+    /* text-overflow: ellipsis; */
+    display: -webkit-box;
+    -webkit-line-clamp: 12;
+    -webkit-box-orient: vertical;
+}
+
+.smallOverflow{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 9;
+    -webkit-box-orient: vertical;
+}
